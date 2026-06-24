@@ -11,7 +11,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 BACKEND_URL = "http://localhost:8000"
-TELEGRAM_BOT_TOKEN = "8737722275:AAEyh9fM0pzAU4F22CsXQ0h9R7dZ4k-nn1c"   
+
 
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
